@@ -1,2 +1,2 @@
 lst = ["a", "b", "c", "d", "e"]
-print(lst[-2])
+print(max(lst[-2]))
