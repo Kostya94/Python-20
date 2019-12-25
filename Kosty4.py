@@ -1,0 +1,6 @@
+a = int(input("number:"))
+r1 = int("%s" % a)
+r2 = int("%s%s" % (a, a))
+r3 = int("%s%s%s" % (a, a, a))
+r4 = int("%s%s%s%s" % (a, a, a, a))
+print(r1 + r2 - r3 * r4)
