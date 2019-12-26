@@ -6,4 +6,4 @@ for i in a:
     else:
         dct[i] = 1
 for i in sorted(dct):
-    print(dct[i])
+    print(i, dct[i])
