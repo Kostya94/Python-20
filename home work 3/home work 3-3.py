@@ -8,6 +8,4 @@ for i in a:
     else:
         dct[i] = 1
 for i in sorted(dct):
-    pass
-if i == max(dct):
     print(i, dct[i])
