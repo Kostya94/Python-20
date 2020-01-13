@@ -1,11 +1,6 @@
+import collections
+a = ("file", "edit", "view", "navigate", "code", "refactor", "run", "tools", "window", "help")
+data_str = ''.join(a)
 
-a = str(("file", "edit", "view", "navigate", "code", "refactor", "run", "tools", "window", "help"))
-i = str(a.replace(",", ""))
-dct = {}
-for i in a:
-    if i in dct:
-        dct[i] += 1
-    else:
-        dct[i] = 1
-for i in sorted(dct):
-    print(i, dct[i])
+c = collections.Counter(data_str).most_common(1)
+print(c)
