@@ -1,6 +1,7 @@
-def func(**kwargs):
-      print(max(kwargs))
-func(a=1,b= 100,c= 6,v= 8)
+def func(*args):
+      a = sorted(args)
+      return a[-2]
+func(1, 100, 6, 8)
 
 
 
