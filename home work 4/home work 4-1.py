@@ -1,4 +1,6 @@
-func = lambda *args: args
+def func(**kwargs):
+      print(max(kwargs))
+func(a=1,b= 100,c= 6,v= 8)
 
-func (1, 100, 6, 8)
-print(max[func])
+
+
